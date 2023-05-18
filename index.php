@@ -1,9 +1,3 @@
-<?php
-
-
-?>
-
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -14,10 +8,10 @@
 </head>
 <body> 
     <div class="container">
-        <form action="">
+        <form action="landing.php">
     
-            <input type="text" placeholder="inserisci paragrafo">
-            <input type="text" placeholder="inserisci parola da censurare">
+            <input type="text" placeholder="inserisci paragrafo" name="paragrafo">
+            <input type="text" placeholder="inserisci parola da censurare" name="parola">
 
             <button type="submit">invia</button>
     
