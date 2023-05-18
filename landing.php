@@ -17,13 +17,23 @@ $lunghezzaParagrafoCensurato = strlen($testoCensurato)
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>landing</title>
 </head>
+<style>
+    .container{
+        width: 80%;
+        margin: 50px auto;
+        font-family: arial;
+    }
+</style>
 <body>
-    
-    <p>il testo inserito da te: "<?php echo $paragrafo ?>".</p>
-    <p>la lunghezza di questo testo è di <?php echo $lunghezzaParagrafo ?> caratteri.</p>
+    <div class="container">
+        <h1>Testo censurato:</h1>
+        <p>il testo inserito da te: "<?php echo $paragrafo ?>".</p>
+        <p>la lunghezza di questo testo è di <?php echo $lunghezzaParagrafo ?> caratteri.</p>
 
-    <hr>
-    <p>il nuovo paragrafo censurato è: <?php echo $testoCensurato?></p>
-    <p>che è ora lungo <?php echo $lunghezzaParagrafoCensurato  ?></p>
+        <hr>
+        <p>il nuovo paragrafo censurato è: <?php echo $testoCensurato?></p>
+        <p>che è ora lungo <?php echo $lunghezzaParagrafoCensurato  ?></p>
+    </div>
+
 </body>
 </html>
